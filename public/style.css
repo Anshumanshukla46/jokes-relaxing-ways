@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-size: larger;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+}
+
+.center {
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border: 2px solid rgb(115, 115, 231);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    border: 2px solid lightblue;
+    background-color: rgb(95, 209, 247);
+    color: white;
+    font-weight: bolder;
+}
